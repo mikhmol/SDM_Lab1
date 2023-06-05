@@ -11,3 +11,5 @@ function solveQuadraticEquation(a, b, c) {
         return `Рівняння має два розв'язки: x1 = ${x1}, x2 = ${x2}`;
     }
 }
+
+module.exports = { solveQuadraticEquation };
